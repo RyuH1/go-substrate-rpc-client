@@ -19,8 +19,8 @@ package state
 import (
 	"log"
 
-	"github.com/centrifuge/go-substrate-rpc-client/v3/client"
-	"github.com/centrifuge/go-substrate-rpc-client/v3/types"
+	"github.com/ryuh1/go-substrate-rpc-client/v3/client"
+	"github.com/ryuh1/go-substrate-rpc-client/v3/types"
 )
 
 // GetMetadata returns the metadata at the given block

@@ -17,7 +17,7 @@
 package author
 
 import (
-	"github.com/centrifuge/go-substrate-rpc-client/v3/types"
+	"github.com/ryuh1/go-substrate-rpc-client/v3/types"
 )
 
 // PendingExtrinsics returns all pending extrinsics, potentially grouped by sender
