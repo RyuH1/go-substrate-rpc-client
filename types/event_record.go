@@ -282,6 +282,7 @@ func (e EventRecordsRaw) DecodeEventRecords(m *Metadata, t interface{}) error {
 		log.Debug(fmt.Sprintf("event #%v is in module %v with event name %v", i, moduleName, eventName))
 
 		// check whether name for eventID exists in t
+		fmt.Printf("val: %v", val)
 		field := val.FieldByName(fmt.Sprintf("%v_%v", moduleName, eventName))
 		if !field.IsValid() {
 			return fmt.Errorf("unable to find field %v_%v for event #%v with EventID %v", moduleName, eventName, i, id)
